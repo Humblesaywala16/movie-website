@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Group 5" />
+    <meta name="description" content="This is a movie website designed as group work during web Technology course at our undergraduate program" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Assignment: Web Technology</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <!-- Logo Container -->
+            <div class="logo-container">
+                <img src="assets/nav/logo.png" alt="logo" />
+                <div class="text-container">
+                    <a href="#"><h2>NIZAMI</h2></a>
+                    <a href="#"><h3>Movie Center</h3></a>
+                </div>
+            </div>
+            <!-- Account and Switch -->
+            <div class="s-account">
+                <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider"></span>
+                </label>
+                <a href="#"><img src="assets/nav/account.png" alt="account" /></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="section1">
+            <div class="background">
+                <img class="bg-img" src="assets/featured-movie/background-img-1.png" alt="" />
+            </div>
+            <div class="images">
+                <img src="assets/featured-movie/img-1.png" alt="" />
+                <img src="assets/featured-movie/img-2.png" alt="" />
+                <div class="img-container">
+                    <img class="img3" src="assets/featured-movie/img-3.jpg" alt="" />
+                    <p class="wonder">Wonder Woman 1984</p>
+                    <button>
+                        <a href="#">Book Now</a>
+                    </button>
+                </div>
+                <img src="assets/featured-movie/img-4.png" alt="" />
+                <img src="assets/featured-movie/img-5.png" alt="" />
+                <img src="assets/featured-movie/img-6.png" alt="" />
+                <img src="assets/featured-movie/img-7.png" alt="" />
+                <img src="assets/featured-movie/img-8.png" alt="" />
+                <img src="assets/featured-movie/img-9.png" alt="" />
+            </div>
+        </section>
+        <!-- Currently Playing Section -->
+        <section class="currently-playing" id="section2">
+            <div class="section2-flex">
+                <div class="currently-p">
+                    <p>Currently playing</p>
+                </div>
+                <div class="currently-seen">
+                    <a href="#"><p>see more</p></a>
+                    <img src="assets/currently-playing/arrow.png" alt="arrow" />
+                </div>
+            </div>
+            <div class="images-section2">
+                <img src="assets/currently-playing/component-1.png" alt="component 1" />
+                <img src="assets/currently-playing/component-2.png" alt="component 2" />
+                <img src="assets/currently-playing/component-3.png" alt="component 3" />
+                <img src="assets/currently-playing/component-4.png" alt="component 4" />
+            </div>
+        </section>
+
+        <!-- Coming Soon Section -->
+        <section class="comming-soon" id="section3">
+            <div class="section3-flex">
+                <div class="coming-s">
+                    <p>Coming soon</p>
+                </div>
+                <div class="soon-seen">
+                    <a href="#"><p>see more</p></a>
+                    <img src="assets/currently-playing/arrow.png" alt="arrow" />
+                </div>
+            </div>
+            <div class="images-section3">
+                <img src="assets/coming-soon/component-1.png" alt="" />
+                <img src="assets/coming-soon/component-2.png" alt="" />
+                <img src="assets/coming-soon/component-3.png" alt="" />
+                <img src="assets/coming-soon/component-4.png" alt="" />
+            </div>
+        </section>
+
+        <!-- Azerbaijani Cinema Section -->
+        <section class="cinema" id="section4">
+            <div class="coming-s">
+                <p>Pearls of Azerbaijani cinema</p>
+            </div>
+            <div class="ellipse">
+                <svg width="1800" height="230">
+                    <text x="230" y="40">1940</text>
+                    <text x="330" y="40">1950</text>
+                    <text x="450" y="40">1970</text>
+                    <text x="570" y="40">1980</text>
+                    <text x="710" y="40">1990</text>
+                    <text x="850" y="40">2000</text>
+                    <text x="1060" y="40">2010</text>
+                    <line x1="0" y1="100" x2="1300" y2="100" />
+                    <circle cx="230" cy="100" r="4" />
+                    <circle cx="330" cy="100" r="4" />
+                    <circle cx="450" cy="100" r="4" />
+                    <circle cx="570" cy="100" r="4" />
+                    <circle cx="710" cy="100" r="4" />
+                    <circle cx="850" cy="100" r="4" />
+                    <circle cx="1060" cy="100" r="4" />
+                </svg>
+            </div>
+            <div class="pearls">
+                <img src="assets/pearls-of-azerbaijani-cinema/image-60.png" alt="Arshin Mal Alan" />
+                <div>
+                    <h6>OPERETTA</h6>
+                    <h1>Arshin Mal Alan</h1>
+                    <p>
+                        Arshin Mal Alan is a 4-act operetta composed by Azerbaijani<br />
+                        composer Uzeyir Hajibeyov. The libretto of the work was also<br />
+                        written by Uzeyir Hajibeyov in 1913 in St Peterburg. The<br />
+                        premiere of the opera was held on October 25, 1913 at the Haji<br />
+                        Zeynelabidin Tagiyev Theater in Baku.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-us" id="section5">
+            <div>
+                <h1>About us</h1>
+                <h6>2008-2018</h6>
+                <p>
+                    According to the state Program for the Development of<br />
+                    Azerbaijani Cinema for 2008-2018, Nizami, one of the oldest<br />
+                    cinemas in the country, was inaugurated on December 27, 2011<br />
+                    after major reconstruction. In addition to the current repertoire<br />
+                    of films, which includes the most interesting new films,<br />
+                    presentation of national films...
+                    <img src="assets/currently-playing/arrow.png" alt="" />
+                </p>
+            </div>
+            <img src="assets/about-us/about-us.png" alt="" />
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="latest-news" id="section6">
+            <div>
+                <h1>Latest news</h1>
+            </div>
+            <div class="img-events">
+                <div class="images-section6">
+                    <div class="image-text-container">
+                        <img src="assets/latest-news/image-1.png" alt="" />
+                        <div class="text-overlay">
+                            <h2>
+                                New American films on the screen<br />
+                                of Nizami Cinema Center
+                            </h2>
+                            <h6>25.06.2022</h6>
+                            <p>
+                                US-produced "Independence Day: Revival" at Nizami Cinema Center.<br />
+                                "Neighbours. 2 in wartime "films have been shown. "Independence<br />
+                                Day: Revival" is based on a screenplay by Nicholas Wright and directed<br />
+                                by Roland Emmerich in the genres of science fiction, adventure and<br />
+                                war. Slogan: "We have 20 years to prepare.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="events">
+                    <div class="event">
+                        <img src="assets/latest-news/image-2.png" alt="" />
+                        <h4>25.03.2022</h4>
+                        <p>
+                            An event titled "April battles and victory" dedicated to the<br />
+                            Armed Forces Day was held at the Nizami Cinema Center.
+                        </p>
+                    </div>
+                    <div class="event">
+                        <img src="assets/latest-news/image-3.png" alt="" />
+                        <h4>27.04.2022</h4>
+                        <p>"Khazri" dance group of Nizami Cinema Center</p>
+                    </div>
+                    <div class="event">
+                        <img src="assets/latest-news/image-4.png" alt="" />
+                        <h4>29.04.2022</h4>
+                        <p>
+                            The conference "Azerbaijani cinema" was held at the Nizami<br />
+                            Cinema Center
+                        </p>
+                    </div>
+                    <div class="event">
+                        <img src="assets/latest-news/image-5.png" alt="" />
+                        <h4>01.02.2022</h4>
+                        <p>
+                            The conference "Heydar Aliyev and Azerbaijani cinema" was<br />
+                            held at the Nizami Cinema Center
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="sections">
+            <!-- Footer Profile Section -->
+            <div class="footer-section">
+                <h1>PROFILE</h1>
+                <a href="#"><p>FAQ's</p></a>
+                <a href="#"><p>Pricing plans</p></a>
+                <a href="#"><p>Order tracking</p></a>
+                <a href="#"><p>Order tracking</p></a>
+                <a href="#"><p>Returns</p></a>
+            </div>
+            <!-- Footer Recent Posts Section -->
+            <div class="footer-section">
+                <h1>RECENT POSTS</h1>
+                <a href="#"><p>Touch of uniqueness</p></a>
+                <a href="#"><p>Offices you won't forget</p></a>
+                <a href="#"><p>Cicilan</p></a>
+            </div>
+            <!-- Footer Customer Section -->
+            <div class="footer-section">
+                <h1>CUSTOMER</h1>
+                <a href="#"><p>Helps and contact us here</p></a>
+                <a href="#"><p>Return</p></a>
+                <a href="#"><p>Online stores</p></a>
+                <a href="#"><p>Terms & condition</p></a>
+            </div>
+            <!-- Footer Contact Section -->
+            <div class="footer-section">
+                <h1>CONTACT</h1>
+                <div class="contact-icons">
+                    <a href="#"><img src="assets/contact/instagram.png" alt="Instagram" /></a>
+                    <a href="#"><img src="assets/contact/twitter.png" alt="Twitter" /></a>
+                    <a href="#"><img src="assets/contact/facebook.png" alt="Facebook" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights-reserved">
+            <hr />
+            <p>&copy; 2014 Nizami cinema. All Right Reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
